@@ -1,5 +1,5 @@
 site_name: Homelab Docs
-site_url: https://docs.alfindustries.uk
+site_url: https://alf188.github.io/homelab-docs/
 theme:
   name: material
   logo: images/logoShortened.svg
