@@ -1,0 +1,4 @@
+site_name: ALF's Homelab
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
