@@ -1,25 +1,25 @@
 # Network Map
 ``` mermaid 
 flowchart TB
-    WAN["WAN<br/>(UWP)"]
+    WAN[["WAN<br/>(UWP)"]]
     PI["Raspberry Pi 4<br/>Model B"]
-    OPENWRT["OpenWRT"]
+    OPENWRT(["OpenWRT"])
     SWITCH["TP-Link Ethernet Switch"]
     PC["PC"]
     ROUTER["TP-Link Router"]
-    AP["AP<br/>&quot;Keep it on the Download&quot;"]
+    AP[["AP<br/>&quot;Keep it on the Download&quot;"]]
     HP["HP EliteDesk"]
     UNUSED1["Unused Port"]
     UNUSED2["Unused Port"]
-    PROXMOX["Proxmox"]
-    VMBR0["vmbr0"]
-    SERVICES["Services"]
-    VMBR1["vmbr1"]
-    MULLVAD["Mullvad VPN"]
-    OPENWRT_VM["OpenWRT<br/>VM"]
-    JELLYFIN["Jellyfin<br/>LXC"]
-    TAILSCALE["Tailscale VPN LXC"]
-    UBUNTU["Ubuntu VM"]
+    PROXMOX(["Proxmox"])
+    VMBR0[["vmbr0"]]
+    SERVICES("Services")
+    VMBR1[["vmbr1"]]
+    MULLVAD(["Mullvad VPN"])
+    OPENWRT_VM("OpenWRT<br/>VM")
+    JELLYFIN("Jellyfin<br/>LXC")
+    TAILSCALE("Tailscale VPN LXC")
+    UBUNTU("Ubuntu VM")
 
     WAN --> PI
     PI --> OPENWRT

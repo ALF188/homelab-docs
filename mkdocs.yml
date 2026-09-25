@@ -25,6 +25,8 @@ theme:
   features:
     - navigation.tabs
     - content.tooltips
+    - navigation.sections
+    - navigation.indexes
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -34,3 +36,30 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets
+nav:
+  - Home: index.md
+  - Hardware: 
+    - Hardware/Hardware.md
+  - Networking:
+    - Networking/index.md
+    - Networking/Hostnames.md
+    - Networking/Networks.md
+    - Networking/LetsEncrypt.md
+  - Services: 
+    - Services/index.md
+    - Services/Flame.md
+    - Services/HomeAssistant.md
+    - Services/JellyFB.md
+    - Services/Jellyfin.md
+    - Services/MeTube.md
+    - Services/Nginx.md
+    - Services/OMV.md
+    - Services/Omnitools.md
+    - Services/OpenWRT.md
+    - Services/PiHole.md
+    - Services/Proxmenux.md
+    - Services/Proxmox.md
+    - Services/RomM.md
+    - Services/TailscaleVPN.md
+    - Services/Vaultwarden.md
+  - Changelog: Changelog/index.md

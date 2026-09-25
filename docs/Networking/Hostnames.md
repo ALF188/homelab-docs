@@ -12,3 +12,4 @@
 | [Proxmenux](../Services/Proxmenux.md) | [prox.alfindustries.uk](https://prox.alfindustries.uk:8008) | [192.168.50.10:8008](https://192.168.50.10:8008) |
 | [Nginx Proxy Manager](../Services/Nginx.md) | [proxy.alfindustries.uk](https://proxy.alfindustries.uk) | [192.168.50.101:81](http://192.168.50.101:81) |
 | [RomM](../Services/RomM.md) | [romm.alfindustries.uk](https://romm.alfindustries.uk) | [192.168.50.205:80](http://192.168.50.205:80) |
+| [VaultWarden](../Services/Vaultwarden.md) | [vault.alfindustries.uk](https://vault.alfindustries.uk) | [192.168.50.206:8000](http://192.168.50.206:8000) |
