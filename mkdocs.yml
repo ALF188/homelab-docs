@@ -1,5 +1,6 @@
 site_name: Homelab Docs
 site_url: https://alf188.github.io/homelab-docs/
+repo_url: https://github.com/ALF188/homelab-docs
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
